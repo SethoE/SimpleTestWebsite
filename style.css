@@ -1,0 +1,140 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 5px 5px 5px grey; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #343a40; 
+    border-radius: 20px 2px 20px 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #343a40;
+    align-items: baseline;
+}
+
+.header {
+    color: white;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.headerDescription {
+    color: white;
+    margin-right: 15px;
+}
+
+.visualContent{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    color: crimson;
+    border: 5px solid white;
+}
+
+.contentContainer:hover {
+    border: 5px solid #7d77c8;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+.Title {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-align: center;
+    color: green;
+}
+
+.separator {
+    margin: 10px 0px 10px 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #148cac;
+}
+
+.myAnimeImage {
+    width: 300px;
+
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+.orderList {
+    display: flex;
+    
+}
+
+
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse; /*The border-collapse CSS property sets whether
+                                cells inside a <table> have shared or separate borders*/
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table, td {
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    border: solid black 1px;
+    text-align: left;
+}
+
+.button {
+    display: block;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 128px;
+    border: 0;
+    background-color: #148cac;
+    color: white;
+}
